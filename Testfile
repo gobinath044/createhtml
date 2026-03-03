@@ -1,1 +1,32 @@
 welcome To git hubs 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <h1 id="result"></h1>
+
+        <button onclick="update(event)"> Gobi </button>
+        <button onclick="update(event)"> Ramu </button>
+        <button onclick="update(event)"> Sekar </button>
+
+    </div>
+    <script>
+        var result = document.getElementById("result");
+        function update(event){
+
+          result.textContent = event.target.textContent;
+          console.log(event.target.textContent);
+
+        }
+    </script>
+
+</body>
+</html>
