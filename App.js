@@ -7,16 +7,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import {Routes, Route } from "react-router-dom";
 import Navbar from './Pages/Navbar.js';
-
 import Counter from './Pages/Count.js';
 import Welcome from './Pages/ProsLevel.js';
-
 import Eventer from './Pages/Eventer.js';
 import Fruits from './Pages/Property.js';
-import { UseRef } from 'react';
-
-import { memo } from 'react';
-import Memo from './Pages/UseMemo.js';
+import StudentForm from './Pages/SubmitForm.js';
 
 function App() {
 
@@ -40,15 +35,17 @@ function App() {
 
       <Welcome name = "Ramu"/>
 
-      <useRef/>
+      {/* <useRef/>
 
-      <Memo/>
+      <Memo/> */}
 
       <Eventer/>
 
       <Fruits/>
     
       </BrowserRouter>
+
+      <StudentForm/>
 
     
     </div>
