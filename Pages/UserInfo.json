@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "department": "Engineering",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "department": "Marketing",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "department": "Human Resources",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "department": "Finance",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "id": 5,
+    "name": "Emma Davis",
+    "email": "emma.davis@example.com",
+    "department": "Sales",
+    "city": "Seattle",
+    "state": "WA"
+  }
+]
+
+  
